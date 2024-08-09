@@ -1,0 +1,20 @@
+
+{
+    "region" : "ap-south-1",
+    "configuration" : "Debug",
+    "framework"     : "net6.0",
+    "self-contained" : false,
+    "application"    : "MaxemusAPI",
+    "environment"    : "MaxemusAPI-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "",
+    "proxy-server"         : "nginx",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.8.0 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "maxemusapi-dev",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "abos-aws-keypair",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role"
+}
